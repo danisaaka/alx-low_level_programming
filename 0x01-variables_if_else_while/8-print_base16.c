@@ -7,11 +7,19 @@
  */
 int main(void)
 {
-	char c = 48;
+	int i = '0';
 
-	for (; c <= 'f'; c++)
-		putchar(c);
-
+	while (i <='9')
+	{
+		putchar(i);
+		i++;
+	}
+	i = 'a';
+	while (i <= 'f')
+	{
+		putchar(i);
+		i++;
+	}
 	putchar('\n');
 	return (0);
 }
