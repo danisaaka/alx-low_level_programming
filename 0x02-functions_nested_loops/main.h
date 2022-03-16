@@ -1,11 +1,12 @@
-#ifndef main
-#define main
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * print_alphabet(void) - prints the alphabet, in lower case, followed by a new
- * line
- */
-
+int _putchar(char);
 void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int _print_sign(int n);
+
 
 #endif
