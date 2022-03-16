@@ -3,12 +3,10 @@
 #include <string.h>
 
 /**
- * main - check the code.
- * Return: Always 0.
- * is_lower is a funtion that checks
- * whether a char is lower or not
- * int c will be the parameter for the function
+ * is_lower - checks for lowercase character.
+ * @c: teh character to be checked.
  * .
+ * Return: 1 if lowercase else 0.
  */
 int _islower(int c)
 {
