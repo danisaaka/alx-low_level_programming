@@ -1,22 +1,23 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
  * print_alphabet_x10 - print the lower alphabet 10 times
  * each time in new line
  */
-
 void print_alphabet_x10(void)
 {
-	int i = '0';
-	char letter = 'a';
+	int i = 0;
+	char x;
 
-	while ( i <= 9)
+	while (i <= 9)
 	{
-		for (letter = 'a'; letter <= 'z'; letter++)
+		for (x = 'a'; x <= 'z'; x++)
 		{
-			_putchar(letter);
+			putchar(x);
 		}
-		_putchar('\n');
+		putchar('\n');
 		i++;
 	}
 }
