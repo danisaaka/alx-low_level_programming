@@ -22,7 +22,7 @@ int print_sign(int n)
 	else
 	{
 		putchar(45);
-		return (1-);
+		return (-1);
 	}
 	return (0);
 }
